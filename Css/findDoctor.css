@@ -1,0 +1,74 @@
+#findDoctor{
+    min-height: 20vh;
+    background-color:var(--thirdly-color);
+}
+.findDoctor__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10rem;
+}
+form .search__item{
+    border: 0.1rem solid var(--border-input-color);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.findDoctor__wrapper--left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findDoctor__wrapper--leftsearch{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 3rem;
+}
+.findDoctor__wrapper--leftsearch-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    align-items: center;
+}
+.item__icon--search{
+    color: purple;
+    background-color: #f1c6f1;
+    border: 1rem solid #f1c6f1;
+    border-radius: 3rem;
+}
+.item__icon--hospital{
+    color: var(--blue-color);
+    background-color: #6c91d1;
+    border: 1rem solid #6c91d1;
+    border-radius: 3rem;
+}
+.item__icon--phone{
+    color: var(--health-color);
+    background-color: #93dcd2;
+    border: 1rem solid #93dcd2;
+    border-radius: 3rem;
+}
+.findDoctor__wrapper p{
+    color: var(--secondary-color);
+}
+.findDoctor__wrapper--right{
+    position: relative;
+}
+.findDoctor__wrapper--rightsearchbox{
+    position: absolute;
+    margin-top: -33rem;
+    margin-left: -6rem;
+}
+.findDoctor__wrapper--rightsearchbox form{
+   display: grid;
+   grid-template-columns: 1fr;
+   background-color: var(--light-color);
+   border: 1rem solid var(--light-color);
+   border-radius: 1.1rem;
+   width: 50%;
+   justify-items: stretch;
+}
+
+

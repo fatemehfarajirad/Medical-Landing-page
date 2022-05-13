@@ -1,0 +1,30 @@
+#subscribe{
+    min-height: 20vh;
+}
+.subscribe__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.subscribe__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+    color: var(--light-color);
+    border: 1rem;
+    border-radius: 1.1rem;
+    padding: 4rem 10rem 4rem 10rem;
+}
+.subscribe__box h2{
+    color: var(--light-color);
+}
+.subscribe__box form{
+    border: 1rem solid var(--light-color);
+    border-radius: 1.1rem;
+    background-color: var(--light-color);
+    margin-top: 4rem;
+}

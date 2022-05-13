@@ -1,0 +1,38 @@
+#chooseWecare{
+    min-height: 30vh;
+    background-color: var(--thirdly-color);
+}
+.specialist__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.specialist__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specialist__docs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    gap: 3rem;
+    justify-content: center;
+
+}
+.doc__img img{
+    width: 100%;
+    background-color: var(--bg-card-color);
+    border: 1rem;
+    border-radius: 1.1rem;
+}
+.doc__item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1rem;
+    border-radius: 1.1rem;
+    background-color: var(--light-color);
+    padding: 1rem;
+}

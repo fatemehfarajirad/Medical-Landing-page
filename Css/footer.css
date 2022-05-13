@@ -1,0 +1,20 @@
+#footer{
+    min-height: 10vh;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+.footer__social--logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.footer__social--icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

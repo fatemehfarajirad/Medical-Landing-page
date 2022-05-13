@@ -1,0 +1,15 @@
+#patientsFeedback{
+    min-height: 40vh;
+}
+.patientsFeedback__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.patientsFeedback__body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
