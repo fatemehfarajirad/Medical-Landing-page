@@ -1,5 +1,6 @@
 #header{
     min-height: 10vh;
+    background-color: var(--bg-card-color);
 }
 .navbar{
     display: flex;
