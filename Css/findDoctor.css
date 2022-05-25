@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10rem;
+   
 }
 form .search__item{
     border: 0.1rem solid var(--border-input-color);
