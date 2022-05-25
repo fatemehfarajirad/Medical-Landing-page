@@ -2,13 +2,15 @@
     min-height: 15vh;
     background-color:var(--thirdly-color);
 }
+h2{
+    padding-top: 3rem;
+}
 .popular__wrapper{
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 10rem;
 }
 .popular__searches{
     display: flex;
